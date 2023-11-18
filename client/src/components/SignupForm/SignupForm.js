@@ -106,7 +106,7 @@ const SignupForm = () => {
             {passwordInputField()}
             {confirmPasswordInputField()}
             {termsAndConditions()}
-            <Link to="/">
+            <Link to="/sign-in">
               <button className="register-btn">Register</button>
             </Link>
           </form>
