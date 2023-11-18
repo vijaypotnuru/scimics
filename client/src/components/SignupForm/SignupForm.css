@@ -1,0 +1,138 @@
+.signup-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #151517;
+  
+}
+
+.logo {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.signup-form-card-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  border: 1px solid rgba(44, 45, 60, 0.5);
+  background: linear-gradient(
+    151deg,
+    rgba(44, 45, 60, 0.47) 3.72%,
+    rgba(15, 16, 18, 0.66) 96.89%
+  );
+  padding: 31px 52px;
+  border-radius: 5px;
+  margin-top: 66px;
+}
+.signup-form-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.registration-title{
+  color: #fff;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  margin-top: 14px;
+}
+
+.input-field-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+label {
+  color: #858699;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.input-field {
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-left: 24px;
+  width: 335px;
+  height: 46px;
+  border-radius: 6px;
+  border: 0.5px solid #2c2d3c;
+  background: #212428;
+  outline: none;
+}
+
+.register-btn {
+  color: #5c67c7;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 6px;
+  border: 1px solid #5c67c7;
+  background: linear-gradient(
+    268deg,
+    rgba(92, 103, 199, 0.35) -23.76%,
+    rgba(92, 103, 199, 0) 101.73%
+  );
+  width: 100%;
+  height: 46px;
+  flex-shrink: 0;
+  margin: 0;
+  margin-top: 40px;
+  margin-bottom: 17px;
+  cursor: pointer;
+}
+
+.terms-and-conditions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.term-checkbox {
+  
+  width: 16.667px;
+  height: 16.667px;
+
+}
+
+.terms {
+  color: #858699;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+}
+
+
