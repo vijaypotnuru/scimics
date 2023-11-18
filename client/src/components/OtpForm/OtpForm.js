@@ -5,11 +5,11 @@ import { ScimicsLogo } from "../../icons";
 const OtpForm = () => {
   const otpInputField = () => {
     return (
-      <div className="input-field-container">
+      <div className="otp-input-field-container">
         <label htmlFor="otp">OTP sent to your Email address</label>
         <div className="digit-inputs">
           <input
-            className="input-field"
+            className="otp-input-field"
             type="text"
             name="otp"
             id="otp"
@@ -18,7 +18,7 @@ const OtpForm = () => {
             maxLength={1}
           />
           <input
-            className="input-field"
+            className="otp-input-field"
             type="text"
             name="otp"
             id="otp"
@@ -27,7 +27,7 @@ const OtpForm = () => {
             maxLength={1}
           />
           <input
-            className="input-field"
+            className="otp-input-field"
             type="text"
             name="otp"
             id="otp"
@@ -36,7 +36,7 @@ const OtpForm = () => {
             maxLength={1}
           />
           <input
-            className="input-field"
+            className="otp-input-field"
             type="text"
             name="otp"
             id="otp"
@@ -45,7 +45,7 @@ const OtpForm = () => {
             maxLength={1}
           />
           <input
-            className="input-field"
+            className="otp-input-field"
             type="text"
             name="otp"
             id="otp"
@@ -54,7 +54,7 @@ const OtpForm = () => {
             maxLength={1}
           />
           <input
-            className="input-field"
+            className="otp-input-field"
             type="text"
             name="otp"
             id="otp"
